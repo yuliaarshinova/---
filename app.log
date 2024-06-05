@@ -1,0 +1,62 @@
+2024-06-01 12:34:19,072 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-01 12:34:19,073 - [33mPress CTRL+C to quit[0m
+2024-06-01 12:34:19,074 -  * Restarting with stat
+2024-06-01 12:34:19,341 -  * Debugger is active!
+2024-06-01 12:34:19,476 -  * Debugger PIN: 625-513-981
+2024-06-01 12:34:39,227 - 127.0.0.1 - - [01/Jun/2024 12:34:39] "GET / HTTP/1.1" 200 -
+2024-06-01 12:34:43,129 - 127.0.0.1 - - [01/Jun/2024 12:34:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-01 12:34:51,604 - Operation: add, Number1: 4.0, Number2: 5.0, Result: 9.0
+2024-06-01 12:34:51,605 - 127.0.0.1 - - [01/Jun/2024 12:34:51] "POST / HTTP/1.1" 200 -
+2024-06-01 12:35:03,025 - Operation: subtract, Number1: 7.0, Number2: 8.0, Result: -1.0
+2024-06-01 12:35:03,026 - 127.0.0.1 - - [01/Jun/2024 12:35:03] "POST / HTTP/1.1" 200 -
+2024-06-01 12:35:09,283 - Operation: add, Number1: 8.0, Number2: 8.0, Result: 16.0
+2024-06-01 12:35:09,285 - 127.0.0.1 - - [01/Jun/2024 12:35:09] "POST / HTTP/1.1" 200 -
+2024-06-01 12:35:15,847 - Operation: multiply, Number1: 8.0, Number2: 8.0, Result: 64.0
+2024-06-01 12:35:15,847 - 127.0.0.1 - - [01/Jun/2024 12:35:15] "POST / HTTP/1.1" 200 -
+2024-06-01 12:38:44,139 - Operation: multiply, Number1: 8.0, Number2: 8.0, Result: 64.0
+2024-06-01 12:38:44,180 - 127.0.0.1 - - [01/Jun/2024 12:38:44] "POST / HTTP/1.1" 200 -
+2024-06-01 12:38:44,295 - 127.0.0.1 - - [01/Jun/2024 12:38:44] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-06-01 12:38:57,112 - Operation: multiply, Number1: 45.0, Number2: 45.0, Result: 2025.0
+2024-06-01 12:38:57,113 - 127.0.0.1 - - [01/Jun/2024 12:38:57] "POST / HTTP/1.1" 200 -
+2024-06-01 12:38:57,210 - 127.0.0.1 - - [01/Jun/2024 12:38:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-06-01 12:39:13,585 - 127.0.0.1 - - [01/Jun/2024 12:39:13] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-06-01 12:39:13,663 - 127.0.0.1 - - [01/Jun/2024 12:39:13] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-01 12:39:13,677 - 127.0.0.1 - - [01/Jun/2024 12:39:13] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-01 12:39:13,815 - 127.0.0.1 - - [01/Jun/2024 12:39:13] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-01 12:41:08,985 -  * Restarting with stat
+2024-06-01 12:41:09,374 -  * Debugger is active!
+2024-06-01 12:41:09,375 -  * Debugger PIN: 625-513-981
+2024-06-01 12:41:17,834 - Operation: multiply, Number1: 45.0, Number2: 45.0, Result: 2025.0
+2024-06-01 12:41:17,841 - 127.0.0.1 - - [01/Jun/2024 12:41:17] "POST / HTTP/1.1" 200 -
+2024-06-01 12:41:17,928 - 127.0.0.1 - - [01/Jun/2024 12:41:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-06-01 12:41:19,522 - Operation: divide, Number1: 1.0, Number2: 0.0, Result: Invalid Operation
+2024-06-01 12:41:19,523 - 127.0.0.1 - - [01/Jun/2024 12:41:19] "POST / HTTP/1.1" 200 -
+2024-06-01 12:41:19,606 - 127.0.0.1 - - [01/Jun/2024 12:41:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-06-01 12:42:00,889 -  * Restarting with stat
+2024-06-01 12:42:01,232 -  * Debugger is active!
+2024-06-01 12:42:01,232 -  * Debugger PIN: 625-513-981
+2024-06-01 12:42:05,324 - Operation: divide, Number1: 1.0, Number2: 0.0, Result: Сan't divide by zero
+2024-06-01 12:42:05,334 - 127.0.0.1 - - [01/Jun/2024 12:42:05] "POST / HTTP/1.1" 200 -
+2024-06-01 12:42:05,427 - 127.0.0.1 - - [01/Jun/2024 12:42:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-06-01 12:42:11,042 - Operation: divide, Number1: 1.0, Number2: 0.0, Result: Сan't divide by zero
+2024-06-01 12:42:11,042 - 127.0.0.1 - - [01/Jun/2024 12:42:11] "POST / HTTP/1.1" 200 -
+2024-06-01 12:42:11,115 - 127.0.0.1 - - [01/Jun/2024 12:42:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-06-01 12:42:21,221 - Operation: add, Number1: 1.0, Number2: 2.0, Result: 3.0
+2024-06-01 12:42:21,222 - 127.0.0.1 - - [01/Jun/2024 12:42:21] "POST / HTTP/1.1" 200 -
+2024-06-01 12:42:21,328 - 127.0.0.1 - - [01/Jun/2024 12:42:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-06-01 12:42:29,590 - Operation: divide, Number1: 1.0, Number2: 0.0, Result: Сan't divide by zero
+2024-06-01 12:42:29,591 - 127.0.0.1 - - [01/Jun/2024 12:42:29] "POST / HTTP/1.1" 200 -
+2024-06-01 12:42:29,755 - 127.0.0.1 - - [01/Jun/2024 12:42:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-06-01 12:43:18,904 - Operation: divide, Number1: 1.0, Number2: 0.0, Result: Сan't divide by zero
+2024-06-01 12:43:18,905 - 127.0.0.1 - - [01/Jun/2024 12:43:18] "POST / HTTP/1.1" 200 -
+2024-06-01 12:43:18,982 - 127.0.0.1 - - [01/Jun/2024 12:43:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-06-01 12:48:56,530 - Operation: divide, Number1: 1.0, Number2: 0.0, Result: Сan't divide by zero
+2024-06-01 12:48:56,531 - 127.0.0.1 - - [01/Jun/2024 12:48:56] "POST / HTTP/1.1" 200 -
+2024-06-01 12:48:56,686 - 127.0.0.1 - - [01/Jun/2024 12:48:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-06-01 12:49:26,573 - Operation: multiply, Number1: 5.0, Number2: 5.25, Result: 26.25
+2024-06-01 12:49:26,574 - 127.0.0.1 - - [01/Jun/2024 12:49:26] "POST / HTTP/1.1" 200 -
+2024-06-01 12:49:26,664 - 127.0.0.1 - - [01/Jun/2024 12:49:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-06-01 12:49:50,804 - Operation: subtract, Number1: 1000.0, Number2: 1001.0, Result: -1.0
+2024-06-01 12:49:50,805 - 127.0.0.1 - - [01/Jun/2024 12:49:50] "POST / HTTP/1.1" 200 -
+2024-06-01 12:49:50,891 - 127.0.0.1 - - [01/Jun/2024 12:49:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
